@@ -1,0 +1,5 @@
+<div *ngFor="let monster of monsters" style="max-width: 12vw; background: #d0d0d0; margin: 1rem; padding: 1rem; border: solid 2px #c8c8c8;">
+  <h2>{{ monster.name | uppercase}}</h2>
+  <div><span>id: </span>{{monster.id}}</div>
+  <div><span>3-Star Weakness: </span>{{monster.threeStarWeakness}}</div>
+</div>
